@@ -1,0 +1,9 @@
+[package]
+name = "async-zip-permission"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.89"
+async_zip = { version = "0.0.17", features = ["full"] }
+tokio = { version = "1.40.0", features = ["full"] }
